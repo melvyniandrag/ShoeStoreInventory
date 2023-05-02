@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Shoe Store Inventory</string>
     <string name="copyright_string">Copyright \u00a9 2023 Ball of Knives</string>
+    <string name="welcome_text_001">Welcome to Shused!</string>
+    <string name="welcome_text_002">Here you can shop preowned shoes</string>
+    <string name="welcome_text_003">Reduce trash, save money, look stylish</string>
+    <string name="login">Login</string>
+    <string name="register_new_account">Register new account</string>
+    <string name="next">Next</string>
+    <string name="how_to_shuse">How to shuse</string>
+    <string name="instructions_text_001">lorem ipsum blah blah blah</string>
+    <string name="instructions_text_002">hocus pocus dingledore</string>
+    <string name="instructions_text_003">one foot two foot red foot blue foot</string>
 </resources>

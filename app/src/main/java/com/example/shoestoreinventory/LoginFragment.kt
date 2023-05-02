@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.shoestoreinventory.databinding.FragmentLoginBinding
 
 class LoginFragment() : Fragment() {
@@ -22,6 +23,13 @@ class LoginFragment() : Fragment() {
         // TODO create an alternate landscape layout?
         // for now, just hide the supportActionBar so theres a little more space.
         (activity as AppCompatActivity).supportActionBar?.hide()
+
+        binding.loginButton.setOnClickListener {
+            findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToWelcomeFragment())
+        }
+        binding.registerButton.setOnClickListener {
+            findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToWelcomeFragment())
+        }
 
         return binding.root
     }
