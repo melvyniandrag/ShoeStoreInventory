@@ -11,4 +11,15 @@
     <string name="instructions_text_001">lorem ipsum blah blah blah</string>
     <string name="instructions_text_002">hocus pocus dingledore</string>
     <string name="instructions_text_003">one foot two foot red foot blue foot</string>
+    <string name="navigate_to_shoe_detail">Navigate to shoe detail</string>
+    <string name="new_shoe_title">Add a new shoe</string>
+    <string name="shoe_name">Shoe name</string>
+    <string name="shoe_brand">Shoe Brand</string>
+    <string name="brand">Brand</string>
+    <string name="size">Size</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="description">Description</string>
+    <string name="shoe_description">Shoe Description</string>
+    <string name="save">save</string>
+    <string name="cancel">cancel</string>
 </resources>
